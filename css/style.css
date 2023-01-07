@@ -161,6 +161,69 @@ header {
     margin-bottom: 20px;
 }
 
+/* About me section-------------------------------------------------------------------------- */
+.about-me{
+    display: flex;
+    margin-top: 100px;
+    background-color: rgb(59, 135, 207);
+    align-items: center;
+    padding: 0 40px;
+}
+.about-describtion{
+   color: #FFFFFF;
+   text-align: center;
+}
+.about-describtion h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.about-describtion p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFF;
+    margin: 15px 0;
+    padding: 0 15px;
+}
+.about-img img{
+    border-radius: 50%;
+    background: #000;
+    height: 500px;
+    width: 500px;
+}
+
+.about-skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+.about-skills .about-skill{
+    background: rgb(14, 162, 176);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.about-skill h1{
+    color: crimson;
+    font-size: 30px;
+    line-height: 25px;
+    background: #000;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.about-skill p{
+    color: #FFFFFF;
+    padding: 20px 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.about-skill a{
+    font-weight: 700;
+    color: rgb(39, 9, 236);
+}
+
 /* footer section styles----------------------------------------------------------------------- */
 footer {
     margin-top: 100px;
